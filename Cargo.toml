@@ -42,7 +42,7 @@ mozjs = { version = "0.14.1", git = "https://github.com/wasmerio/mozjs.git", bra
 mozjs_sys = { version = "0.68.2", git = "https://github.com/wasmerio/mozjs.git", branch = "wasi-gecko" }
 
 # for mozjs
-libc = { version = "=0.2.144", git = "https://github.com/wasix-org/libc.git", tag = "0.2.144" }
+libc = { version = "=0.2.139", git = "https://github.com/wasix-org/libc.git", tag = "0.2.139" }
 # libc = "=0.2.144"
 
 # NOTE: We need to pin and replace some dependencies to achieve wasix compatibility.
@@ -73,7 +73,7 @@ ctrlc = "3.4.2"
 [patch.crates-io]
 hyper-rustls = { git = "https://github.com/wasix-org/hyper-rustls.git", branch = "v0.25.0" }
 socket2 = { git = "https://github.com/wasix-org/socket2.git", branch = "v0.5.5" }
-libc = { git = "https://github.com/wasix-org/libc.git", tag = "0.2.144" }
+libc = { git = "https://github.com/wasix-org/libc.git", tag = "0.2.139" }
 mio = { git = "https://github.com/wasix-org/mio.git", branch = "v0.8.9" }
 tokio = { git = "https://github.com/wasix-org/tokio.git", branch = "wasix-1.35.1" }
 rustls = { git = "https://github.com/wasix-org/rustls.git", branch = "v0.22.2" }
